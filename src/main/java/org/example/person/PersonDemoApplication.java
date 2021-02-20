@@ -1,6 +1,5 @@
 package org.example.person;
 
-import org.example.person.models.Person;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

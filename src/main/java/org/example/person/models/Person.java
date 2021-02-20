@@ -2,7 +2,6 @@ package org.example.person.models;
 
 
 import lombok.Data;
-import lombok.Generated;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
