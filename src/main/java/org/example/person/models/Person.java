@@ -1,6 +1,7 @@
 package org.example.person.models;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -10,14 +11,15 @@ import javax.persistence.Id;
 
 @Entity
 @Data
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    String firstName;
-    String lastName;
-    int age;
-    String favouriteColor;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private String favouriteColor;
 }
