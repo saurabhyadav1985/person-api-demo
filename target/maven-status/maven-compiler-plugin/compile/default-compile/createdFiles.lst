@@ -1,0 +1,6 @@
+org/example/person/repositories/PersonJpaRepository.class
+org/example/person/repositories/PersonRepository.class
+org/example/person/exceptions/ExceptionHandler.class
+org/example/person/controllers/PersonController.class
+org/example/person/models/Person.class
+org/example/person/PersonDemoApplication.class
