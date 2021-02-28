@@ -3,6 +3,7 @@ package org.example.person.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
