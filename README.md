@@ -31,5 +31,9 @@ Run docker image
 API endpoint and documentation will be present on below URL which can be reached after launching the docker image.
     http://localhost/swagger-ui-custom.html
 
+**PostMan API Collection**
+
+APIs can be imported in Postman using PersonAPI.postman_collection
+
 **Credentials **
     See application.properties

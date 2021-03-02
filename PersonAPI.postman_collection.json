@@ -1,0 +1,121 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PersonAPI",
+		"_postman_id": "a8e47323-71e8-44a0-9c61-9ed689eb08ba",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Persons",
+			"request": {
+				"url": "http://localhost/api/v1/persons",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4xMjM=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Persons identified by",
+			"request": {
+				"url": "http://localhost/api/v1/persons/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4xMjM=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create new person",
+			"request": {
+				"url": "http://localhost/api/v1/persons/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4xMjM=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete existing person",
+			"request": {
+				"url": "http://localhost/api/v1/persons/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4xMjM=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update existing person",
+			"request": {
+				"url": "http://localhost/api/v1/persons/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4xMjM=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
